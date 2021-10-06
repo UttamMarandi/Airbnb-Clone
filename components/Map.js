@@ -10,8 +10,12 @@ const Map = ({ searchResults }) => {
     zoom: 8,
   });
 
-  //   Transform searchResults(array of objects) to array of objects container longitude and latitiude only
+  //   Transform searchResults(array of objects) to array of objects containing longitude and latitiude only
 
+  const cordinates = searchResults.map((result) => ({
+    longitude: result.long,
+    latitude: result.lat,
+  }));
   return (
     <>
       <ReactMapGL
