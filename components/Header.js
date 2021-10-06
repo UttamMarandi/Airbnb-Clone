@@ -22,7 +22,7 @@ const Header = ({ placeholder }) => {
   const router = useRouter();
 
   const selectionRange = {
-    startData: startDate,
+    startDate: startDate,
     endDate: endDate,
     key: "selection", //this key is the one that will be mapped to ranges.selection in handleSelect
   };

@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import { useRouter } from "next/dist/client/router";
 import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
+import Map from "../components/Map";
 
 const Search = ({ searchResults }) => {
   const router = useRouter();
@@ -52,6 +53,9 @@ const Search = ({ searchResults }) => {
               )
             )}
           </div>
+        </section>
+        <section className="map_container">
+          <Map />
         </section>
       </main>
       <Footer />
