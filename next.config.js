@@ -6,7 +6,8 @@ module.exports = {
       "links.papareact.com",
     ],
     env: {
-      mapbox_key: "",
+      mapbox_key:
+        "pk.eyJ1IjoidG9taDQ3IiwiYSI6ImNrdWY1bTczZTFvcHgybm12cmNnNXEwdDMifQ.J7hFgUVZWLSivPJfZ7yOng",
     },
     // only public keys should be mentioned here.
   },
