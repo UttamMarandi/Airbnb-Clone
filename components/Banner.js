@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[800px]">
       <Image
         className=""
-        src="https://dev-sachitstudio.pantheonsite.io/wp-content/uploads/2021/10/airbnb_banner_long-1.jpg"
+        src="https://raw.githubusercontent.com/UttamMarandi/Airbnb-Clone/main/public/images/airbnb_4.jpg"
         layout="fill"
         objectFit="cover"
       />

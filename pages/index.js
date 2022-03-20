@@ -41,7 +41,7 @@ export default function Home({ exploreData, cardsData }) {
         </section>
 
         <LargeCard
-          img="https://dev-sachitstudio.pantheonsite.io/wp-content/uploads/2021/10/airbnb_largecard.jpg"
+          img="https://raw.githubusercontent.com/UttamMarandi/Airbnb-Clone/main/public/images/airbnb_1.jpg"
           title="Try Hosting"
           description="Earn extra income and unlock new opportunities by sharing your space."
           buttonText="Learn More"
