@@ -56,7 +56,7 @@ const Header = ({ placeholder }) => {
         className="relative flex items-center h-10 cursor-pointer"
       >
         <Image
-          src="https://dev-sachitstudio.pantheonsite.io/wp-content/uploads/2021/10/airbnb_logo.png"
+          src="https://raw.githubusercontent.com/UttamMarandi/Airbnb-Clone/main/public/images/airbnb_logo.png"
           layout="fill"
           objectFit="contain"
           objectPosition="left"
